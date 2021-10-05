@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Подбор квартиры</title>
+  </head>
+  <body>
+    <form action="#" method="post" enctype="multipart/form-data">
+      <div>
+        <label for="category">Выбор района</label>
+        <select id="category" name="category">
+          <option value="first" selected>Московский</option>
+          <option value="second">Петроградский</option>
+          <option value="third">Невский</option>
+          <option value="third">Василеостровский</option>
+        </select>
+      </div>
+      <div>
+        <p>Количество комнат:</p>
+        <label>
+          Студия
+          <input type="checkbox" name="additional[]" value="studiya">
+        </label>
+        <label>
+          Однокомнатная
+          <input type="checkbox" name="additional[]" value="kom1">
+        </label>
+         <label>
+          Евродвушка
+          <input type="checkbox" name="additional[]" value="euro2">
+        </label>
+        <label>
+          Двухкомнатная
+          <input type="checkbox" name="additional[]" value="kom2">
+        </label>
+        <label>
+          Трехкомнатная
+          <input type="checkbox" name="additional[]" value="kom3">
+        </label>
+         <label>
+          Четырехкомнатная +
+          <input type="checkbox" name="additional[]" value="kom4">
+        </label>
+      </div>
+      <div>
+        <label for="year">Год сдачи дома</label>
+        <select id="year" name="year">
+          <option value="first">2022-2023</option>
+          <option value="second" selected>2021</option>
+          <option value="third">2015-2020</option>
+          <option value="third">2005-2014</option>
+        </select>
+      </div>
+      <div>
+        <label for="cost">Максимальная стоимость</label>
+        <input id="cost" type="number" name="cost" min="1500000" max="50000000" step="500000">
+      </div>
+      <div>
+        <label for="size">Общая площадь</label>
+        <select id="size" name="size">
+          <option value="first"><40м2</option>
+          <option value="second" selected>40-60м2</option>
+          <option value="third">60-100м2</option>
+          <option value="third">100м2+</option>
+         </select>
+      </div>
+      <div>
+        <label>
+          с отделкой
+          <input type="radio" name="answer" value="first">
+        </label>
+        <label>
+          без отделки
+          <input type="radio" name="answer" value="second">
+        </label>
+      </div>
+      <div>
+        <label>
+          с террасой
+          <input type="radio" name="answer" value="first">
+        </label>
+        <label>
+          без террасы
+          <input type="radio" name="answer" value="second">
+        </label>
+      </div>
+      <div>
+        <p>Класс:</p>
+        <label>
+          Бизнес-класс
+          <input type="checkbox" name="additional[]" value="studiya">
+        </label>
+        <label>
+          Премиум
+          <input type="checkbox" name="additional[]" value="kom1">
+        </label>
+         <label>
+           Deluxe
+          <input type="checkbox" name="additional[]" value="euro2">
+        </label>
+      </div>
+    <!--  <div>
+        <label for="stage">Выбор этажа</label>
+        <select id="stage" name="stage">
+          <option value="first">1-5</option>
+          <option value="second" selected>5-10</option>
+          <option value="third">10+</option>
+          <option value="third">не первый</option>
+          <option value="third">не последний</option>
+        </select>
+      </div> -->
+      <div>
+        Выбор этажа:
+        <label for="name"></label>
+        <input id="name" type="number" name="name" placeholder="от">
+        <label for="name"></label>
+        <input id="name" type="number" name="name" placeholder="до">
+        <label>
+          Не первый
+          <input type="checkbox" name="additional[]" value="kom1">
+        </label>
+         <label>
+           Не последний
+          <input type="checkbox" name="additional[]" value="euro2">
+        </label>
+      </div>
+    </form>
+  </body>
+</html>
