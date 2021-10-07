@@ -1,0 +1,82 @@
+
+.ex {
+  background-color: yellow;
+  padding-left: 0;
+  max-width: 1200px;
+  margin: 0 auto;
+
+}
+
+.ex > li {
+  display: inline-block;
+  border-bottom: 3px solid transparent;
+  width: 75px;
+  text-align: center;
+}
+
+.ex > li:hover {
+  border-bottom: 3px solid orange;
+}
+
+a {
+  text-decoration: none;
+  color: orange;
+}
+
+#p {
+  display: none;
+}
+
+body {
+  margin: 0;
+}
+
+.pic {
+  display: block;
+  border: 2px solid grey;
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 2px;
+  margin-left: auto;
+}
+
+.text {
+  display: block;
+  width: 400px;
+  margin-left: auto;
+}
+
+.link {
+  display: block;
+  background-color: yellow;
+  text-align: center;
+  border-radius: 5px;
+  width: 400px;
+  margin-left: auto;
+}
+
+.h1 {
+  display: block;
+  width: 400px;
+  text-align: center;
+  margin-left: auto;
+}
+
+.third {
+  display: inline;
+}
+
+.third > a {
+  display: inline-block;
+  border: 1px solid orange;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+#color {
+  background-color: yellow;
+}
+
+body {
+  background-attachment: fixed;
+}

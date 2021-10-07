@@ -19,27 +19,27 @@
         <p>Количество комнат:</p>
         <label>
           Студия
-          <input type="checkbox" name="additional[]" value="studiya">
+          <input type="checkbox" name="rooms-count[]" value="studiya">
         </label>
         <label>
           Однокомнатная
-          <input type="checkbox" name="additional[]" value="kom1">
+          <input type="checkbox" name="rooms-count[]" value="kom1">
         </label>
          <label>
           Евродвушка
-          <input type="checkbox" name="additional[]" value="euro2">
+          <input type="checkbox" name="rooms-count[]" value="euro2">
         </label>
         <label>
           Двухкомнатная
-          <input type="checkbox" name="additional[]" value="kom2">
+          <input type="checkbox" name="rooms-count[]" value="kom2">
         </label>
         <label>
           Трехкомнатная
-          <input type="checkbox" name="additional[]" value="kom3">
+          <input type="checkbox" name="rooms-count[]" value="kom3">
         </label>
          <label>
           Четырехкомнатная +
-          <input type="checkbox" name="additional[]" value="kom4">
+          <input type="checkbox" name="rooms-count[]" value="kom4">
         </label>
       </div>
       <div>
@@ -88,15 +88,15 @@
         <p>Класс:</p>
         <label>
           Бизнес-класс
-          <input type="checkbox" name="additional[]" value="studiya">
+          <input type="checkbox" name="class[]" value="studiya">
         </label>
         <label>
           Премиум
-          <input type="checkbox" name="additional[]" value="kom1">
+          <input type="checkbox" name="class[]" value="kom1">
         </label>
          <label>
            Deluxe
-          <input type="checkbox" name="additional[]" value="euro2">
+          <input type="checkbox" name="class[]" value="euro2">
         </label>
       </div>
     <!--  <div>
@@ -111,18 +111,21 @@
       </div> -->
       <div>
         Выбор этажа:
-        <label for="name"></label>
-        <input id="name" type="number" name="name" placeholder="от">
-        <label for="name"></label>
-        <input id="name" type="number" name="name" placeholder="до">
+        <label for="stagemin"></label>
+        <input id="stagemin" type="number" name="stage[]" placeholder="от">
+        <label for="stagemax"></label>
+        <input id="stagemax" type="number" name="stage[]" placeholder="до">
         <label>
           Не первый
-          <input type="checkbox" name="additional[]" value="kom1">
+          <input type="checkbox" name="additional[]" value="nfirst">
         </label>
          <label>
            Не последний
-          <input type="checkbox" name="additional[]" value="euro2">
+          <input type="checkbox" name="additional[]" value="nlast">
         </label>
+      </div>
+      <div>
+        <input type="submit" value="Отправить">
       </div>
     </form>
   </body>
