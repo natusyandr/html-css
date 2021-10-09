@@ -1,0 +1,68 @@
+@import "flex-grid.css";
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.col-6{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.col-12 {
+  display: flex;
+justify-content: center;
+align-items: end;
+}
+
+ header {
+  background-color: brown;
+  padding: 20px 0;
+}
+
+.justify-content {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  padding: 5px;
+}
+
+ div > a {
+  text-decoration: none;
+  color: #FFDEAD;
+  background-color: brown;
+  text-align: center;
+
+}
+
+div > h2 {
+  color: brown;
+  text-align: center;
+}
+aside {
+  background-color: #FFDEAD;
+}
+
+footer {
+  background-color: brown;
+  color: #FFDEAD;
+  height: 50px;
+  margin: 0;
+}
+
+section > div {
+  background-color: #FFF8DC;
+  border: 10px solid white;
+}
+
+h3 {
+  color: brown;
+}
+
+p {
+  color: brown;
+}
