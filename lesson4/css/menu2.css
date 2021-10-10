@@ -1,0 +1,19 @@
+@import "flex-grid.css";
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+nav > a {
+  text-decoration: none;
+  color: #8A2BE2;
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+  padding: 10px 0;
+}
+
+a:hover {
+  background-color: #6495ED;
+}
